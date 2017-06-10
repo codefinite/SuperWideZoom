@@ -1,0 +1,6 @@
+#netflix-player video[src], #dv-web-player video[src], #movie_player.ytp-fullscreen video[src] {
+    height: 145vh !important;
+    width: 100vw !important;
+    left: 0 !important;
+    top: -22.5vh !important;
+}
