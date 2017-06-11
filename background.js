@@ -1,5 +1,11 @@
 "use strict";
 
+window.browser = (function () {
+  return window.browser ||
+    window.msBrowser ||
+    window.chrome;
+})();
+
 browser.browserAction.onClicked.addListener(() => {
     browser.tabs.query(
         {

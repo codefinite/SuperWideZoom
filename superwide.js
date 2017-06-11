@@ -1,5 +1,11 @@
 "use strict";
 
+window.browser = (function () {
+  return window.browser ||
+    window.msBrowser ||
+    window.chrome;
+})();
+
 function superWideZoom(request, sender, sendResponse) {
     var head = document.head || document.getElementsByTagName('head')[0],
         superWideZoomStyle = document.getElementById('superWideZoomStyle'),
