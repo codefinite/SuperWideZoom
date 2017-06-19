@@ -1,0 +1,30 @@
+#netflix-player video[src], /*netflix*/
+#dv-web-player video[src]  /*amazon*/
+{
+    transform: scale(1.35);
+}
+
+:-webkit-full-screen video[src],
+#netflix-player:-webkit-full-screen video[src],
+#dv-web-player :-webkit-full-screen video[src]
+{
+    transform: scale(1.35);
+}
+:-moz-full-screen video[src],
+#netflix-player:-moz-full-screen video[src],
+#dv-web-player :-moz-full-screen video[src]
+{
+    transform: scale(1.35);
+}
+:-ms-fullscreen video[src],
+#netflix-player:-ms-fullscreen video[src],
+#dv-web-player :-ms-fullscreen video[src]
+{
+    transform: scale(1.35);
+}
+:fullscreen video[src],
+#netflix-player:fullscreen video[src],
+#dv-web-player :fullscreen video[src]
+{
+    transform: scale(1.35);
+}

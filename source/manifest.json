@@ -1,9 +1,9 @@
 {
     "author": "Codefinite",
-    "description": "Make 21:9 Netflix, YouTube & Amazon Prime video fill a 21:9 display in Edge, removing the double letterbox effect.",
+    "description": "Make 21:9 Netflix, YouTube, Amazon Prime & HTML5 fullscreen video fill a 21:9 display, removing the double letterbox effect.",
     "name": "SuperWideZoom",
     "manifest_version": 2,
-    "version": "1.0.0",
+    "version": "1.0.1",
     "icons": {
         "24": "icons/icon-24.png",
         "44": "icons/icon-44.png",
@@ -18,7 +18,8 @@
             ],
             "js": [
                 "superwide.js"
-            ]
+            ],
+            "all_frames": true
         }
     ],
     "browser_action": {
@@ -38,5 +39,6 @@
             "background.js"
         ],
         "persistent": true
-    }
+    },
+    "web_accessible_resources": ["superwidezoom.css"]
 }
